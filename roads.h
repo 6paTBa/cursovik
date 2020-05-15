@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-struct graph
-{
-    int nvertices;
+typedef struct{
+    size_t nvertices;
     int *roads;
-};
+} graph;
 
