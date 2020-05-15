@@ -1,7 +1,8 @@
 #include <stdio.h>
+#define MAX_NAME_LENGTH 2
 
 typedef struct{
-    char *name;
+    char name[MAX_NAME_LENGTH];
 } names;
 
 typedef struct{
